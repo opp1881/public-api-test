@@ -1,0 +1,21 @@
+{
+  "name": "public-api-test",
+  "version": "1.0.0",
+  "description": "A test client for the 1881 public search api",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "kristian.byrkjeland@opplysningen.no",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.2",
+    "jwt-simple": "^0.5.1",
+    "moment": "^2.20.1",
+    "request": "^2.83.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.18.1",
+    "eslint-config-airbnb": "^16.1.0"
+  }
+}
